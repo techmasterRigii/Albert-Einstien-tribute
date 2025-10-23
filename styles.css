@@ -1,0 +1,71 @@
+
+body{
+    background-color: white;
+}
+
+main{
+    background-color: #eeeeee;
+    margin-bottom:50px;
+    padding: ;
+}
+
+#image {
+    max-width:
+}
+
+#img-div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    max-width:90%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#image {
+  max-width: 100%;          /* responsive width */
+  height:400px;             /* maintain aspect ratio */
+  display: block;           /* remove bottom gap */
+  border-radius: 10px;      /* optional: rounded corners */
+}
+figcaption {
+    margin-top: 10px;
+}
+
+h1 , h2 , p {
+    text-align: center;
+}
+
+ul {
+    padding: 0 ;
+    list-style:none;
+    margin: 0 auto ;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+span {
+    font-weight: 600;
+}
+
+p a {
+    color:rgb(231, 42, 231);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p a:hover {
+    color:tomato;
+}
+
+p {
+    font-weight: 900;
+    padding-bottom: 20px ;
+}
+
